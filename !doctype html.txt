@@ -75,7 +75,7 @@
       <div class="full"><label for="requirements">Besondere Anforderungen</label><textarea id="requirements" placeholder="z. B. Sitzlift, Sitzkantelung, elektrische Rückenlehne, zentrale Beinstütze, Adipositas, enge Wohnumgebung, Transport, Pflegeeinrichtung …"></textarea></div>
     </div>
   </div>
-  <div class="notice"><b>Hinweis:</b> In diesem Mockup öffnet „Anfrage absenden“ das E-Mail-Programm mit allen Daten. Auf der echten Homepage sollte der Versand direkt über den Webserver bzw. das vorhandene Formularsystem erfolgen.</div>
+  <div class="notice"><b>Hinweis:</b> In diesem Mockup öffnet „Anfrage absenden“ das E-Mail-Programm mit allen Daten. </div>
   <div id="error" class="error"></div><div id="ok" class="ok"></div><div id="preview" class="preview"></div>
   <div class="actions">
     <button type="button" class="secondary" onclick="showSummary()">Zusammenfassung anzeigen</button>
