@@ -1,8 +1,3 @@
-# patrick14-cmd.github.io
-Eine Testseite um den den Versorgungskompass zu testen
-
-
-<!doctype html>
 <html lang="de">
 <head>
   <meta charset="utf-8">
