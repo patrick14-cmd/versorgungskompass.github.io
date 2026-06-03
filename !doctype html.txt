@@ -38,6 +38,15 @@
       <div><label for="email">E-Mail <span class="required">*</span></label><input id="email" type="email" autocomplete="email" placeholder="max@example.de"></div>
       <div><label for="phone">Telefon</label><input id="phone" type="tel" autocomplete="tel" placeholder="Telefonnummer"></div>
       <div><label for="city">PLZ / Ort</label><input id="city" placeholder="z. B. 28870 Ottersberg"></div>
+<div>
+  <label>PLZ / Ort</label>
+  <input id="city" placeholder="z. B. 28870 Ottersberg">
+</div>
+
+<div>
+  <label>Sanitätshaus</label>
+  <input id="sanitaetshaus" placeholder="Name des Sanitätshauses">
+</div>
       <div class="full"><label for="role">Ich frage an als</label><select id="role"><option>Privatperson / Angehörige*r</option><option>Sanitätshaus</option><option>Therapie / Pflege / Klinik</option><option>Sonstiges</option></select></div>
     </div>
   </div>
