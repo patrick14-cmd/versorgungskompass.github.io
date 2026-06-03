@@ -43,6 +43,7 @@ button{border:0;border-radius:999px;padding:14px 22px;font-size:16px;font-weight
 .small{font-size:13px;color:var(--muted);margin-top:10px}
 .ok{display:none;background:#ecfdf5;color:#065f46;border-radius:14px;padding:13px;margin-top:14px}
 .error{display:none;background:#fef3f2;color:#7a271a;border:1px solid #fecdca;border-radius:14px;padding:13px;margin-top:14px}
+
 @media(max-width:740px){
   .intro,.grid,.checks{grid-template-columns:1fr}
   .actions button{width:100%}
@@ -98,11 +99,6 @@ button{border:0;border-radius:999px;padding:14px 22px;font-size:16px;font-weight
     </div>
 
     <div>
-      <label>Ansprechpartner Sanitätshaus</label>
-      <input id="ansprechpartner" placeholder="Name Ansprechpartner">
-    </div>
-
-    <div class="full">
       <label>Ich frage an als</label>
       <select id="role">
         <option>Privatperson / Angehörige*r</option>
@@ -154,11 +150,6 @@ button{border:0;border-radius:999px;padding:14px 22px;font-size:16px;font-weight
     <div class="full">
       <label>Diagnosen / Einschränkungen</label>
       <textarea id="diagnosis" placeholder="z. B. MS, Schlaganfall, Adipositas, Amputation, Schmerzen, eingeschränkte Armfunktion …"></textarea>
-    </div>
-
-    <div class="full">
-      <label>Aktuelle Hilfsmittel</label>
-      <textarea id="currentAid" placeholder="Welche Hilfsmittel sind vorhanden? Rollstuhl, Rollator, Pflegebett, Transferhilfen, E-Mobil usw."></textarea>
     </div>
 
     <div class="full">
@@ -336,7 +327,6 @@ E-Mail: ${value('email')}
 Telefon: ${value('phone')}
 PLZ / Ort: ${value('city')}
 Sanitätshaus: ${value('sanitaetshaus')}
-Ansprechpartner Sanitätshaus: ${value('ansprechpartner')}
 Anfrage als: ${value('role')}
 
 AUSGANGSSITUATION
@@ -346,9 +336,6 @@ Körpergröße: ${value('height')}
 Körpergewicht: ${value('weight')}
 Diagnosen / Einschränkungen:
 ${value('diagnosis')}
-
-Aktuelle Hilfsmittel:
-${value('currentAid')}
 
 Was funktioniert aktuell nicht gut?
 ${value('problem')}
